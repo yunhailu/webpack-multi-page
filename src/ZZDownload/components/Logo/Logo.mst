@@ -1,0 +1,6 @@
+<template>
+    <div class="zzlogo">
+        <img class="zzlogo-icon" src="https://img.58cdn.com.cn/zhuanzhuan/logo@3x.png" />
+        <img class="zzlogo-text" src="../../assets/changlaizz.png" />
+    </div>
+</template>

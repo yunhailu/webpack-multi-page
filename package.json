@@ -1,0 +1,48 @@
+{
+  "name": "ZZDownload",
+  "version": "1.0.0",
+  "description": "ZZ Download Page",
+  "keywords": [
+    "webpack",
+    "promise",
+    "axios",
+    "MVP"
+  ],
+  "author": "yunhailu",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --host 0.0.0.0 --port 80 --config build/webpack.dev.config.js --define ",
+    "build": "webpack --hide-modules --config build/webpack.prod.config.js --define ",
+    "test": "node test.js --v1 "
+  },
+  "dependencies": {
+    "@zz-vc/callApp": "^1.1.18",
+    "@zz/perf": "^1.0.10",
+    "@zz/zz-jssdk": "*",
+    "axios": "^0.16.2",
+    "es6-promise": "^4.1.1",
+    "jsonp": "^0.2.1",
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "imports-loader": "^0.7.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "minimist": "^1.2.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0",
+    "webpack-merge": "^4.1.0",
+    "yargs": "^8.0.2"
+  }
+}

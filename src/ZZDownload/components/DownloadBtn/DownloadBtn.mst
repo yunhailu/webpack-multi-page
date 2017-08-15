@@ -1,0 +1,6 @@
+<template>
+    <div class="zzdownload">
+        <div class="zzdownload-btn">立即下载</div>
+        <div class="zzdownload-text">如果不能正常打开转转，请在浏览器中打开之前链接</div>
+    </div>
+</template>
